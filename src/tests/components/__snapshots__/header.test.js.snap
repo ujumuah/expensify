@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it should render navlink correctly 1`] = `
+<div>
+  <h1>
+    PortFolio
+  </h1>
+  <ul>
+    <li>
+      <NavLink
+        activeClassName="isActive"
+        exact={true}
+        to="/"
+      >
+        Home
+      </NavLink>
+    </li>
+    <li>
+      <NavLink
+        activeClassName="isActive"
+        to="/create"
+      >
+        Create
+      </NavLink>
+    </li>
+    <li>
+      <NavLink
+        activeClassName="isActive"
+        to="/works"
+      >
+        Works
+      </NavLink>
+    </li>
+    <li>
+      <NavLink
+        activeClassName="isActive"
+        to="contact"
+      >
+        Contact
+      </NavLink>
+    </li>
+  </ul>
+</div>
+`;

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Items with expensesSaple data 1`] = `
+<div>
+  <Link
+    to="/edit/1"
+  >
+    <h4>
+      Expense:
+      rent
+    </h4>
+  </Link>
+  <div>
+    Amount:
+    1225
+  </div>
+  <div>
+    Created on :
+    01-Jan-1970
+  </div>
+</div>
+`;

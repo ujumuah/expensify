@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render expenseList with  No expenses message 1`] = `
+<div>
+  <h2>
+    Expenses List
+  </h2>
+  <Connect(Text) />
+  <ul>
+    <li>
+      No Expenses
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`should render expenseList with expensesSamples value 1`] = `
+<div>
+  <h2>
+    Expenses List
+  </h2>
+  <Connect(Text) />
+  <ul>
+    <items
+      amount={1225}
+      createAt={0}
+      description="rent"
+      id="1"
+      key="1"
+      note="need to pay december rent"
+    />
+    <items
+      amount={1225}
+      createAt={0}
+      description="mortgage"
+      id="2"
+      key="2"
+      note="need to pay december morgage"
+    />
+    <items
+      amount={2356}
+      createAt={0}
+      description="Food"
+      id="3"
+      key="3"
+      note="Foood for life"
+    />
+    <items
+      amount={25468}
+      createAt={0}
+      description="Tour"
+      id="4"
+      key="4"
+      note="need to travel before end of the year"
+    />
+  </ul>
+</div>
+`;
